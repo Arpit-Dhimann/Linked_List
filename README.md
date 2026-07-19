@@ -11,23 +11,27 @@ This repository contains practical examples demonstrating how to manipulate node
 | File Name | Description |
 | :--- | :--- |
 | `AddInLinkedList.java` | Basic node insertion (first & last) |
+| `DeletionProblem.java` | Conditional deletion (nodes > 25) |
+| `LinkedListCollectionFramework.java` | Usage of built-in Java LinkedList class |
+| `LinkedListCycle.java` | Cycle detection using Floyd's algorithm |
 | `LinkedListDeletion.java` | Deletion operations (first & last) |
 | `LinkedListWithSize.java` | Implementation with size tracking |
-| `LinkedListCollectionFramework.java` | Usage of built-in Java LinkedList class |
-| `DeletionProblem.java` | Conditional deletion (nodes > 25) |
-| `SearchingProblem.java` | Searching for specific elements and finding index |
+| `PalindromeLinkedList.java` | Palindrome check using slow/fast pointers |
+| `RemoveNthNode.java` | Removing Nth node from the end |
 | `ReverseIterate.java` | Iterative approach to reverse a Linked List |
 | `ReverseRecursive.java` | Recursive approach to reverse a Linked List |
+| `SearchingProblem.java` | Searching for specific elements and finding index |
 
 ## 🛠 Concepts Covered
 
 - **Node Structure**: Creating and managing `Node` objects.
 - **Traversal**: Traversing the list to access and print data.
-- **Insertion**: Adding elements at the beginning and the end.
-- **Deletion**: Removing elements (first, last, and conditional values).
-- **Size Tracking**: Managing list size dynamically.
+- **Insertion/Deletion**: Adding/Removing elements dynamically.
 - **Searching**: Finding elements and their positions.
-- **Reversal**: Reversing the list using Iterative and Recursive techniques.
+- **Advanced Algorithms**:
+    - **Reversal**: Iterative and Recursive techniques.
+    - **Cycle Detection**: Floyd's Tortoise and Hare algorithm.
+    - **Two-Pointer Approach**: Finding middle element and palindrome checks.
 - **Collection Framework**: Utilizing `java.util.LinkedList` for efficient operations.
 
 ---
